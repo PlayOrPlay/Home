@@ -1,0 +1,249 @@
+@font-face {
+    font-family: Tektur;
+    src: url('Fonts/Tektur-VariableFont_wdth\,wght.ttf');
+    font-weight: normal;
+}
+html, body {
+    margin:0;
+    padding:0;
+    }
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(Images/FondGaming.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+} 
+.txtPOP{
+    color: white;
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    border: 1px blue;
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #74d6f2; 
+    box-shadow: 10px 5px 5px black;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.divPrinc{
+    text-align: center;
+}
+h1{
+    font-family: 'Tektur', cursive;
+    color: antiquewhite;
+    background-color: black;
+    padding: none;
+    margin: none;
+}
+.retour{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+.LogoPOP{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align:center;
+    margin:auto;
+    margin-top: 25px;
+    display:flex;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    /* Grossir image */
+    -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+
+}
+
+.LogoPOP:hover{
+    transform:scale(1.2);
+}
+
+.lienYT{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+h3{
+    font-family: 'Tektur', cursive;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+}
+
+ul{
+    padding-left: 0%;
+    margin-top: 0px;
+    background: linear-gradient(to bottom right, rgba(4, 4, 59, .4), rgba(171, 209, 214, .5), rgba(4, 4, 59, .4));
+    border-radius: 5%;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: white; 
+    box-shadow: 10px 5px 5px black;
+}
+.logosFin{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.acc, .titre{
+    padding: 10px 0px;
+}
+iframe{
+    border-radius: 20px;
+}
+
+li{
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Tektur', cursive;
+    font-size: 40px;
+    list-style: georgian inside url('Images/rocket.svg');
+}
+
+/* Media queries mobile et tablette */
+/* Mobiles */
+@media (min-width: 200px) and (max-width: 480px) {
+h1{
+    font-size: 50px;
+}
+.txtPOP{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 13px;
+}
+iframe{
+    width: 320px;
+    height: 180px;
+}
+ul{
+    margin-left: 15%;
+    margin-right: 15%;
+}   
+li{
+    margin-left: 15%;
+    margin-right: 15%;
+} 
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logosFin{
+    width: 300px;
+}
+}
+    
+@media (min-width: 481px) and (max-width: 768px) {
+h1{
+    font-size: 50px;
+}  
+.txtPOP{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 13px;
+}   
+iframe{
+    width: 400px;
+    height: 225px;
+}
+ul{
+    margin-left: 25%;
+    margin-right: 25%;
+}   
+li{
+    margin-left: 25%;
+} 
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logosFin{
+    width: 400px;
+}
+}
+    
+@media (min-width: 769px) and (max-width: 1024px) {
+    .txtPOP{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 14px;
+    }     
+    h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    ul{
+        margin-left: 20%;
+        margin-right: 20%;
+    }   
+    li{
+        margin-left: 35%;
+    } 
+    .logosFin{
+        width: 600px;
+    }
+}
+    
+@media (min-width: 1025px) and (max-width: 1200px) {
+h1{
+    font-size: 40px;
+}  
+.txtPOP{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 15px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul{
+    margin-left: 10%;
+    margin-right: 10%;
+}   
+li{
+    margin-left: 20%;
+    margin-right: 20%;
+} 
+.logosFin{
+    width: 1000px;
+}
+}
+    
+@media (min-width: 1201px) {
+h1{
+    font-size: 40px;
+}
+.txtPOP{
+    margin-left: 28%;
+    margin-right: 28%;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+ul{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+li{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}

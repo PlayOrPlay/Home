@@ -1,0 +1,190 @@
+@font-face {
+    font-family: LilitaOne;
+    src: url('Fonts/LilitaOne-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: AbrilFat;
+    src: url('Fonts/AbrilFatface-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+	font-family: Inconsolata;
+	src: url('Inconsolata-VariableFont_wdth,wght.ttf');
+	font-weight: normal;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    }
+body{
+    width: 100%;
+    height: 100%;
+}
+h3{
+    font-family: LilitaOne;
+    font-size: 25px;
+    margin: 0 40%;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.85);
+
+}
+.premDiv{
+    width: 100%;
+    padding-top: 20px;
+}
+.titre{
+    text-align: center;
+    font-family: Inconsolata;
+    
+}
+.titre1{
+    margin: auto;
+    font-size: 30px;
+}
+.titre2{
+    margin: auto;
+    font-size: 16px;
+    padding-top: 3px;
+}
+.divmenu{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+hr{
+    size: 1px;
+    border: none;
+    margin: 0px;
+    color: black;
+}
+
+.Logos{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.Logos:hover{
+    transform:scale(1.1);
+}
+.divCentre{
+	background-image: url('Images/ciel2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: bottom;
+
+}
+.menu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(217, 230, 230, 0.7);
+    border: thick double rgb(0, 0, 0);
+}
+.menu:hover{
+    background-color: rgba(189, 226, 24, 0.95);
+    box-shadow: 10px 5px 5px rgba(214, 231, 60, 0.87);
+}
+a{
+    text-decoration: none;
+    color: black;
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+.retour{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+/* Media queries mobile et tablette */
+/* Mobiles */
+@media (min-width: 200px) and (max-width: 480px) {
+h1{
+    font-size: 30px;
+    }
+h2{
+    font-size: 20px;
+}
+h3{
+    margin: 0 30%;
+}
+.titre{
+    font-size: 24px;
+}
+a{
+    width: 32%;
+}
+.Logos{
+    margin-bottom: 10px;
+}
+.divmenu{
+    width: 100%;
+}
+.premDiv{
+height: 220px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+h1{
+        font-size: 30px;
+  }
+h2{
+        font-size: 20px;
+  }
+h3{
+    margin: 0 30%;
+}
+.titre{
+    font-size: 24px;
+}
+a{
+    width: 32%;
+}
+.Logos{
+    margin-bottom: 10px;
+}
+.divmenu{
+    width: 100%;
+}
+.premDiv{
+    height: 220px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .divmenu{
+        width: 100%;
+    }  
+    .premDiv{
+        height: 150px;
+        }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .divmenu{
+        width: 100%;
+    } 
+    .premDiv{
+        height: 150px;
+        }
+}
+
+@media (min-width: 1201px) {
+.divmenu{
+    width: 100%;
+}
+.premDiv{
+	height: 100px;
+    }
+}
+
