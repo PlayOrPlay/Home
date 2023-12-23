@@ -44,7 +44,7 @@ a{
   padding: 10px;
   border-radius: 6px;
   /*Fond*/
-  background: rgba( 255, 255, 255, 0.25 );
+  background: rgba(0, 0, 0, 0.4);
   box-shadow: 0 8px 32px 0 rgba(75, 80, 155, 0.37);
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
