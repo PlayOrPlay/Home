@@ -86,6 +86,7 @@ a{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  text-align: justify;
   padding-left: 10px;
   display: flex;
   justify-content: center;
@@ -113,6 +114,15 @@ a{
     width: 300px;
     margin: 10px;
   }
+  .divsoon{
+    padding: 10px 0px;
+  }
+  .logofoot{
+    padding-left: 10px;
+  }
+  .txttravaux{
+    padding-right: 10px;
+  }
 
 }
 
@@ -120,6 +130,15 @@ a{
   .divLivres{
     width: 300px;
     margin: 10px;
+  }
+  .divsoon{
+    padding: 10px 0px;
+  }
+  .logofoot{
+    padding-left: 10px;
+  }
+  .txttravaux{
+    padding-right: 10px;
   }
 
 }
