@@ -28,7 +28,7 @@ h3{
     margin: 0 40%;
     padding: 5px 5px;
     border-radius: 20px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(183, 19, 19) 0px 20px 30px -10px;
     border: 1px solid white;
     background: linear-gradient(#fe1a00, #ce0100);
     color: whitesmoke;
@@ -49,7 +49,7 @@ h3{
     color: white;
     padding-top: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: rgba(0, 0, 0, 0.51);
+    background: rgba(183, 19, 19, 0.8);
     padding: 20px;
 }
 .divmenu{
@@ -81,6 +81,7 @@ hr{
     border-radius: 100%;
     width: 100px;
     height: 100px;
+    margin-bottom: 10px;
 }
 .Logos:hover{
     transform:scale(1.1);
