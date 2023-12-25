@@ -29,7 +29,7 @@ h3{
     padding: 5px 5px;
     border-radius: 20px;
     box-shadow: rgb(183, 19, 19) 0px 20px 30px -10px;
-    border: 1px solid white;
+    border: 1px solid whitesmoke;
     background: linear-gradient(#fe1a00, #ce0100);
     color: whitesmoke;
 
@@ -82,6 +82,7 @@ hr{
     width: 100px;
     height: 100px;
     margin-bottom: 10px;
+    border: 1px solid whitesmoke
 }
 .Logos:hover{
     transform:scale(1.1);
